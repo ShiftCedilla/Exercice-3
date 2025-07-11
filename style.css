@@ -204,7 +204,52 @@ align-items: last baseline;
     align-items: center;
 }
 
+/* partie formulaire ------------------------------------------------------------ */
 
 
+
+/* Formulaire stylisé */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.form-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-example {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-example label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-example input,
+.form-example textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.form-example textarea {
+    resize: vertical;
+}
+
+.form-example button{
+    background-co
 
 
